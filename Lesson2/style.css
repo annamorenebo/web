@@ -1,0 +1,22 @@
+h1{
+    color:rgb(71, 58, 58);
+    margin-left: 300px;
+}
+h2{
+    color:rgb(132, 124, 124);
+    margin-left: 300px;
+}
+html{
+    background-color:rgb(225, 226, 223);
+}
+a{
+    color:rgb(10, 51, 10);
+}
+
+a:hover{
+    color: rgb(29, 23, 135);
+}
+img{
+    width: 500px;
+    margin-left: 50px;
+}
