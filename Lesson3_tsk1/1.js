@@ -19,8 +19,8 @@
 
 const cels = +prompt("введите температуру в градусах Цельсия: ");
 function celToFaren(grad){
-    const fareng = (9/5) * grad + 32;
-    alert(`Цельсий: ${grad} Фаренгейт: ${fareng.toFixed([2])}`);
+    const fareng = Math.floor(((9/5) * grad + 32)*100)/100;
+    alert(`Цельсий: ${grad} Фаренгейт: ${fareng}`);
 }
     
 celToFaren(cels);
